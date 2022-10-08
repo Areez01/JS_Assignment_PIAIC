@@ -1,29 +1,9 @@
-var age;
-if (age < 2){
-console.log("The person is a Baby");
+var users;
+
+
+if(users == null){
+console.log("We need to find some Users");
 }
-if (age <= 13){
-console.log("The person is a kid");
+else{
+console.log(`Hello, ${users} ! Thank you for logging in again`);
 }
-if (age <= 20){
-console.log("The person is a Teenager");
-}
-if (age <= 65){
-console.log("The person is an Adult");
-}
-if (age == 65 || age > 65){
-console.log("The person is an Elder");
-}
-
-if (age == null){
-console.log("We need to find some user");
-}
-
-
-
-
-
-
-
-
-
