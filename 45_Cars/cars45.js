@@ -1,7 +1,20 @@
-function cars(name, manufacture, type, color, l_s = "\n"){
-console.log({name,manufacture, type, color});
+function cars(manufacturer, model, year, color,more_options){
+   const cars_info = {
+    'manufacturer' : manufacturer,
+    'model' : model,
+    'year' : year,
+    'color' : color,
+    ...more_options
+   }
+
+    console.log({manufacturer, model, year, color, more_options})
+return cars_info;
+
+    
 }
-cars("Revo","Toyota","4x4","Black");
-cars("Prius","Honda","SUV","White");
-cars("Alto","Suzuki","Family","Grey");
+
+
+cars('Toyota', 'Corolla','2022','White', {gearshift : "Manual", rim : "Alloy Rim"});
+
+cars('Suzuki', 'Alto','2016','Black', {gearshift : "Automatic"})
 
