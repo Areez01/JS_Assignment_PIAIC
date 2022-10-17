@@ -1,6 +1,6 @@
 const cars = ["Rolls Royce", "Mercedes", "Porsche"]
-console.log("I would like to own a " + cars[0] + " car.");
-console.log("I would like to own a " + cars[1] + " car.");
-console.log("I would like to own a " + cars[2] + " car.");
+for(let i=0;i<cars.length;i++){
+console.log("I would like to own a " + cars[i] + " car.");
 
+}
 
