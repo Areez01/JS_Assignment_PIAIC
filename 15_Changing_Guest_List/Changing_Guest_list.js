@@ -1,13 +1,15 @@
 const dinnerInvitation = ["Sameer", "Ali", "Abbas"];
-console.log("Mr." + dinnerInvitation[0] + ", You're invited for dinner at 8pm");
-console.log("Mr." + dinnerInvitation[1] + ", You're invited for dinner at 8pm");
-console.log("Mr." + dinnerInvitation[2] + ", You're invited for dinner at 8pm");
 
-console.log("\nMr." + dinnerInvitation[1] + ", Sorry to hear that you can't make it to dinner.");
+for(let i=0;i<dinnerInvitation.length;i++)
+{
+console.log("Mr." + dinnerInvitation[i] + ", You're invited for dinner at 8pm");
+}
 
+console.log("\nMr." + dinnerInvitation[1] + ", Sorry to hear that you can't make it to dinner.\n");
 
 dinnerInvitation[1] = "Rizwan"
 
-console.log("\nMr." + dinnerInvitation[0] + ", You're invited for dinner at 8pm");
-console.log("Mr." + dinnerInvitation[1] + ", You're invited for dinner at 8pm");
-console.log("Mr." + dinnerInvitation[2] + ", You're invited for dinner at 8pm");
+for(i=0;i<dinnerInvitation.length;i++)
+{
+console.log("Mr." + dinnerInvitation[i] + ", You're invited for dinner at 8pm");
+}
