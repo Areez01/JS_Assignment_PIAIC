@@ -1,2 +1,3 @@
-var turkey = {language:"Turkish", capital "Istanbul"}
-console.error();
+var countries = ["Africa", "Australia", "America", "Germany",];
+countries[-1] = "Australia";
+console.log(countries);
