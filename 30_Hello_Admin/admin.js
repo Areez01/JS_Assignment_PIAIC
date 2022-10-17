@@ -1,9 +1,12 @@
 var users = ["Aareez", "Raafay", "Saleem", "Shani", "Admin"];
 
-
-if(users[04] == "Admin"){
-console.log("Hello Admin! Welcome to the Dashboard");
+for(var i=0;i<users.length;i++){
+if(users[i] == "Admin"){
+    console.log("Hello " + users[i] + "! Welcome to the Dashboard");
+    break;
 }
-else{
-console.log("Hello, " + users[01] + " ! Thank you for logging in again");
+else
+{
+console.log("Hello " + users[i]);
+}
 }
